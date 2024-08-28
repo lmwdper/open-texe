@@ -1,4 +1,4 @@
-<link rel="stylesheet"href="hhh.css"
+
 <div class="c">
   <div class="drop drop1"></div>
   <div class="drop drop2"></div>
@@ -7,3 +7,35 @@
     <p>Both the drops are created using CSS.</p>
   </div>
 </div>
+ht: 40px;
+  width: 40px;
+  background: #E6FDFB;
+  border-radius: 44% 56% 46% 54% / 36% 50% 50% 64%;
+  left: 130px;
+  top: 40px;
+  box-shadow: 16px 40px 0 -10px white;
+  opacity: 0.8;
+}
+
+.drop1 {
+  left: -100px;
+  top: -50px;
+}
+
+.drop2 {
+  right: -100px;
+  bottom: -50px;
+  z-index: -1;
+  border-radius: 46% 50% 39% 54% / 56% 57% 50% 50%;
+}
+
+.drop2::before {
+  border-radius: 46% 50% 39% 54% / 56% 57% 50% 50%;
+}
+
+p {
+  line-height: 0;
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat"
+}
